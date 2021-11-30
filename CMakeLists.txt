@@ -57,7 +57,7 @@ if(NORM_PROTOKIT_GIT_TAG)
 	include(FetchContent)
 	FetchContent_Declare(
 	  protokit
-	  GIT_REPOSITORY https://github.com/USNavalResearchLaboratory/protolib.git
+	  GIT_REPOSITORY https://github.com/uzstudio/protolib.git
 	  GIT_TAG        ${NORM_PROTOKIT_GIT_TAG}
 	)
 	FetchContent_MakeAvailable(protokit)
